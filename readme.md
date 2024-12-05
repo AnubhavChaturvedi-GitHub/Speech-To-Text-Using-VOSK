@@ -1,13 +1,17 @@
-# 🗣️ Speech-to-Text Using VOSK
+# 🗣️ **Speech-to-Text Using VOSK**
 
-### 🚀 Transform Audio into Text with Precision and Speed
+### 🚀 **Transform Audio into Text with Precision and Speed**
 
 This project demonstrates how to build a real-time **Speech-to-Text** system using the **VOSK** library. Whether you're creating transcription tools, virtual assistants, or voice-controlled systems, this implementation ensures high accuracy and efficiency.
 
 ---
-![Demo GIF](https://github.com/user-attachments/assets/255c2c3d-99dc-4752-8469-6ef64f42e267)
 
-## 📋 Features
+![Demo GIF](https://github.com/user-attachments/assets/255c2c3d-99dc-4752-8469-6ef64f42e267)  
+*(GIF is set to auto-play in loop for seamless demo experience)*
+
+---
+
+## 📋 **Features**
 
 - **Real-Time Transcription**: Converts live audio into text instantly.
 - **Lightweight & Offline**: Works offline without requiring heavy resources.
@@ -16,9 +20,9 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 
 ---
 
-## 🛠️ Setup
+## 🛠️ **Setup**
 
-### Prerequisites
+### **Prerequisites**
 
 1. **Python (3.6 or higher)**: Ensure Python is installed on your machine.
 2. **Create a Virtual Environment (optional but recommended)**:
@@ -43,19 +47,19 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 4. **Download a VOSK Model**:
    - Download a pre-trained VOSK model from the official VOSK model page: [VOSK Models](https://alphacephei.com/vosk/models).
    - **Models available**:
-     | Model Name                       | Languages     | Link                                                                                       |
-     | -------------------------------- | ------------- | ------------------------------------------------------------------------------------------ |
-     | `vosk-model-small-en-us-0.15`    | English (US)  | [Download](https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15)                |
-     | `vosk-model-small-hi-in-0.22`    | Hindi (IN)    | [Download](https://alphacephei.com/vosk/models/vosk-model-small-hi-in-0.22)                |
-     | `vosk-model-en-us`               | English (US)  | [Download](https://alphacephei.com/vosk/models/vosk-model-en-us)                           |
-     | `vosk-model-small-fr-fr-0.15`    | French        | [Download](https://alphacephei.com/vosk/models/vosk-model-small-fr-fr-0.15)                |
-     | `vosk-model-small-de-de-0.15`    | German        | [Download](https://alphacephei.com/vosk/models/vosk-model-small-de-de-0.15)                |
+     | **Model Name** | **Language Support** | **Accuracy** | **Size** | **Download Link** |
+     |----------------|----------------------|--------------|----------|-------------------|
+     | **🌍 `vosk-model-small-en-us-0.15`** | English (US) | 🏆 High | 🗜️ Small | [Download](https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15) |
+     | **🌍 `vosk-model-small-hi-in-0.22`** | Hindi (IN) | 🏆 High | 🗜️ Small | [Download](https://alphacephei.com/vosk/models/vosk-model-small-hi-in-0.22) |
+     | **🌐 `vosk-model-en-us`** | English (US) | 🏅 Very High | ⚖️ Medium | [Download](https://alphacephei.com/vosk/models/vosk-model-en-us) |
+     | **🇫🇷 `vosk-model-small-fr-fr-0.15`** | French | 🏆 High | 🗜️ Small | [Download](https://alphacephei.com/vosk/models/vosk-model-small-fr-fr-0.15) |
+     | **🇩🇪 `vosk-model-small-de-de-0.15`** | German | 🏆 High | 🗜️ Small | [Download](https://alphacephei.com/vosk/models/vosk-model-small-de-de-0.15) |
 
    - Extract the downloaded model into a directory (e.g., `vosk-model-small-en-us-0.15`).
 
 ---
 
-## 📂 Project Structure
+## 📂 **Project Structure**
 
 ```
 ├── SpeechToTextUsingVosk.py        # Main Python file to run the application
@@ -86,7 +90,7 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 
 ---
 
-## 🚀 Usage
+## 🚀 **Usage**
 
 1. **Clone the Repository**:
    ```bash
@@ -95,7 +99,7 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
    ```
 
 2. **Set Model Path**:
-   Replace the `MODEL_PATH` in `SpeechToTextUsingVosk.py` with the path to your downloaded VOSK model directory.
+   - Replace the `MODEL_PATH` in `SpeechToTextUsingVosk.py` with the path to your downloaded VOSK model directory.
 
 3. **Run the Application**:
    ```bash
@@ -103,11 +107,11 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
    ```
 
 4. **Start Speaking**:
-   Speak into your microphone and watch as your speech is converted into text in real-time!
+   - Speak into your microphone and watch as your speech is converted into text in real-time!
 
 ---
 
-## 🧩 How It Works
+## 🧩 **How It Works**
 
 1. **Audio Capture**: The `sounddevice` library is used to capture live audio input from the microphone.
 2. **Processing with VOSK**: The captured audio is processed in real-time by VOSK's speech recognizer.
@@ -115,7 +119,7 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 
 ---
 
-## 📈 Performance Tips
+## 📈 **Performance Tips**
 
 - **For Faster Transcription**: Use smaller models such as `vosk-model-small-en-us-0.15` for real-time transcription on low-resource systems.
 - **For Higher Accuracy**: Download larger models for better accuracy, such as `vosk-model-en-us`.
@@ -123,7 +127,7 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 
 ---
 
-## 📋 Example Output
+## 📋 **Example Output**
 
 ### Input:
 _"Hello, welcome to the VOSK speech-to-text demo!"_
@@ -137,7 +141,7 @@ _"Hello, welcome to the VOSK speech-to-text demo!"_
 
 ---
 
-## 📚 Resources
+## 📚 **Resources**
 
 - [VOSK Documentation](https://alphacephei.com/vosk/)
 - [Pre-Trained Models](https://alphacephei.com/vosk/models)
@@ -145,20 +149,21 @@ _"Hello, welcome to the VOSK speech-to-text demo!"_
 
 ---
 
-## 🤝 Contribution
+## 🤝 **Contribution**
 
 Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.  
 
 ---
 
-## 📜 License
+## 📜 **License**
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🧑‍💻 About the Creator
+## 🧑‍💻 **About the Creator**
 
 Developed with 💡 by **Anubhav Chaturvedi** (@NetHyTech).  
-Check out more open-source projects on [GitHub](https://github.com/AnubhavChaturvedi-GitHub).  
+Check out more open-source projects on [GitHub](https://github.com/AnubhavChaturvedi-GitHub).
+
 
