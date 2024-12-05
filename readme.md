@@ -2,6 +2,12 @@
 
 ### 🚀 **Transform Audio into Text with Precision and Speed**
 
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Instagram][instagram-shield]][instagram-url]
+[![Twitter][twitter-shield]][twitter-url]
+[![YouTube][youtube-shield]][youtube-url]
+[![Telegram][telegram-shield]][telegram-url]
+
 This project demonstrates how to build a real-time **Speech-to-Text** system using the **VOSK** library. Whether you're creating transcription tools, virtual assistants, or voice-controlled systems, this implementation ensures high accuracy and efficiency.
 
 ---
@@ -168,4 +174,27 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 Developed with 💡 by **Anubhav Chaturvedi** (@NetHyTech).  
 Check out more open-source projects on [GitHub](https://github.com/AnubhavChaturvedi-GitHub).
 
+<!-- Linkedin -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0B5FBB
+[linkedin-url]: https://www.linkedin.com/in/anubhav-chaturvedi-/
+
+<!-- Instagram -->
+
+[instagram-shield]: https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white
+[instagram-url]: https://www.instagram.com/_anubhav__chaturvedi_/
+
+<!-- Twitter -->
+
+[twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
+[twitter-url]: https://x.com/AnubhavChatu
+
+
+<!-- YouTube -->
+[youtube-shield]: https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white
+[youtube-url]: https://www.youtube.com/@NetHyTech
+
+<!-- Telegram -->
+[telegram-shield]: https://img.shields.io/badge/Telegram-%231DA1F2.svg?style=for-the-badge&logo=Telegram&logoColor=white
+[telegram-url]: https://t.me/YourTelegramUsername
 
