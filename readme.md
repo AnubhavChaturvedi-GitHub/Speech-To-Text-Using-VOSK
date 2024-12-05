@@ -1,12 +1,12 @@
 # 🗣️ **Speech-to-Text Using VOSK**
 
-### 🚀 **Transform Audio into Text with Precision and Speed**
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Instagram][instagram-shield]][instagram-url]
 [![Twitter][twitter-shield]][twitter-url]
 [![YouTube][youtube-shield]][youtube-url]
 [![Telegram][telegram-shield]][telegram-url]
+
+### 🚀 **Transform Audio into Text with Precision and Speed**
 
 This project demonstrates how to build a real-time **Speech-to-Text** system using the **VOSK** library. Whether you're creating transcription tools, virtual assistants, or voice-controlled systems, this implementation ensures high accuracy and efficiency.
 
