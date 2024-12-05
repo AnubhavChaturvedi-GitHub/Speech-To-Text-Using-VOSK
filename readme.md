@@ -133,10 +133,12 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 _"Hello, welcome to the VOSK speech-to-text demo!"_
 
 ### Output:
-```json
-{
-  "text": "hello welcome to the vosk speech to text demo"
-}
+```shell
+Listening... Speak into the microphone.
+Final Sentence: hello everyone welcome back to another video
+Final Sentence: tell me
+Final Sentence: what do you think about me
+Word: can you hear me
 ```
 
 ---
