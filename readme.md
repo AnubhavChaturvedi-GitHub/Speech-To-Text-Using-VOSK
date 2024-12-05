@@ -1,7 +1,3 @@
-Here’s an **advanced README.md** for your VOSK-based Speech-to-Text project:
-
----
-
 # Speech-to-Text Using VOSK
 
 ### 🚀 Transform Audio into Text with Precision and Speed
