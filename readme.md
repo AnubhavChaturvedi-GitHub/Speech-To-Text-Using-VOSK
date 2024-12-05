@@ -132,8 +132,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 🧑‍💻 About the Creator
 
 Developed with 💡 by **Anubhav Chaturvedi** (@NetHyTech).  
-Check out more open-source projects on [GitHub](https://github.com/NetHyTech).  
-
---- 
-
-Let me know if you need modifications, sir!
+Check out more open-source projects on [GitHub](https://github.com/AnubhavChaturvedi-GitHub).  
