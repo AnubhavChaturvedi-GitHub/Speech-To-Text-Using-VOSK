@@ -31,11 +31,31 @@ This project demonstrates how to build a real-time **Speech-to-Text** system usi
 ## 📂 Project Structure
 
 ```
-speech-to-text-vosk/
-│
-├── app.py            # Main script for real-time transcription
-├── README.md         # Project documentation
-└── vosk-model/       # VOSK pre-trained model directory
+├── SpeechToTextUsingVosk.py
+├── models
+    └── vosk-model-small-en-us-0.15
+    │   ├── README
+    │   ├── am
+    │       └── final.mdl
+    │   ├── conf
+    │       ├── mfcc.conf
+    │       └── model.conf
+    │   ├── graph
+    │       ├── Gr.fst
+    │       ├── HCLr.fst
+    │       ├── disambig_tid.int
+    │       └── phones
+    │       │   └── word_boundary.int
+    │   └── ivector
+    │       ├── final.dubm
+    │       ├── final.ie
+    │       ├── final.mat
+    │       ├── global_cmvn.stats
+    │       ├── online_cmvn.conf
+    │       └── splice.conf
+├── readme.md
+└── requirements.txt
+
 ```
 
 ---
