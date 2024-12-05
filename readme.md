@@ -5,6 +5,7 @@
 This project demonstrates how to build a real-time **Speech-to-Text** system using the **VOSK** library. Whether you're creating transcription tools, virtual assistants, or voice-controlled systems, this implementation ensures high accuracy and efficiency.
 
 ---
+![1205](https://github.com/user-attachments/assets/255c2c3d-99dc-4752-8469-6ef64f42e267)
 
 ## 📋 Features
 
